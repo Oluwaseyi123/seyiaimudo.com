@@ -1,0 +1,50 @@
+[
+  {
+  "position": "Software Engineer",
+  "company_name": "Raptor Technologies",
+  "start_date": "Febuary 2020",
+  "end_date":"Present",
+  "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+  "stack": ["HTML", "CSS", "Javascript","HTML"]
+  },
+  {
+    "position": "Software Engineer",
+    "company_name": "Raptor Technologies",
+    "start_date": "Febuary 2020",
+    "end_date":"Present",
+    "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+    "stack": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "position": "Software Engineer",
+    "company_name": "Raptor Technologies",
+    "start_date": "Febuary 2020",
+    "end_date":"Present",
+    "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+    "stack": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "position": "Software Engineer",
+    "company_name": "Raptor Technologies",
+    "start_date": "Febuary 2020",
+    "end_date":"Present",
+    "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+    "stack": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "position": "Software Engineer",
+    "company_name": "Raptor Technologies",
+    "start_date": "Febuary 2020",
+    "end_date":"Present",
+    "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+    "stack": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "position": "Software Engineer",
+    "company_name": "Raptor Technologies",
+    "start_date": "Febuary 2020",
+    "end_date":"Present",
+    "description": "Build and maintain essential components that Raptors frontend across the entire product, collaborating closely with cross-functional teams—developers, designers, quality analysts, and product managers—to implement designs and improve user experience.",
+    "stack": ["HTML", "CSS", "Javascript"]
+  }
+]

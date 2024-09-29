@@ -1,0 +1,24 @@
+[
+  {
+  "title": "Tools to boost productivity as a Frontend Developer",
+  "date": "Raptor Technologies",
+  "description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt. Velit vel est ac malesuada vulputate. Accumsan quis pellentesque massa arcu habitasse id quis vel dui.",
+  "tags": ["CSS", "Git"],
+  "url": "https://oluwaseyi.hashnode.dev/tools-to-boost-productivity-as-a-frontend-developer"
+  },
+  {
+    "title": "Accessing deeply nested components in VueJS",
+    "date": "Raptor Technologies",
+    "description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt. Velit vel est ac malesuada vulputate. Accumsan quis pellentesque massa arcu habitasse id quis vel dui.",
+    "tags": ["CSS", "Git"],
+    "url": "https://oluwaseyi.hashnode.dev/accessing-deeply-nested-components-in-vuejs"
+   
+  },
+  {
+    "title": "Everything you need to know about deleting branches in Git",
+    "date": "Raptor Technologies",
+    "description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt. Velit vel est ac malesuada vulputate. Accumsan quis pellentesque massa arcu habitasse id quis vel dui.",
+    "tags": ["CSG", "Git"],
+    "url": "https://oluwaseyi.hashnode.dev/accessing-deeply-nested-components-in-vuejs"
+  }
+]

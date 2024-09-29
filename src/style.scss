@@ -1,0 +1,138 @@
+
+
+:root {
+/* Light mode */
+  --light-primary-color: #2C3E50;
+  --light-secondary-color: #ECF0F1;
+  --light-accent-color: #E74C3C;
+  --light-text-color: #2C3E50;
+  --light-light-accent-color: #FFDFDC;
+
+/* Dark mode */
+  --dark-primary-color: #1F2F40;
+  --dark-secondary-color: #34495E;
+  --dark-accent-color: #C0392B;
+  --dark-text-color: #BDC3C7;
+  --dark-background-color: #131A22;
+
+  /* Styles */
+ // font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ //
+  //font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  // font-weight: 400;
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  background: linear-gradient(78.88deg, #ECF0F1 0.52%, #FFFFFF 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  color: var(--light-text-color);
+  min-height: 100vh;
+}
+
+// h1 {
+//   font-size: 64px !important;
+//   font-weight: 700 !important;
+//   letter-spacing: -0.02em;
+// }
+
+h2{
+  font-weight: 700 !important;
+}
+
+h3{
+  font-weight: 600 !important;
+}
+
+button{
+  font-weight: 600 !important;
+  letter-spacing: -0.02em;
+}
+
+p{
+  font-weight: 400 !important;
+ // letter-spacing: -0.02em;
+  font-size: 15px;
+  line-height: 1.4;
+ word-spacing: -2px;
+}
+
+h3 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+
+a{
+  font-weight: 600;
+}
+
+
+.accent-text{
+  color: var(--light-accent-color);
+  font-weight: 600;
+}
+
+i{
+  font-size: 14px;
+  font-weight: 400;
+}
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--light-text-color);
+    background:  linear-gradient(78.88deg, #ECF0F1 0.52%, #FFFFFF 100%);;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  /* a:hover {
+    color: #747bff;
+  } */
+  button {
+    background-color: #f9f9f9;
+  }
+}

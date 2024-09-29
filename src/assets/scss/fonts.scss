@@ -1,0 +1,46 @@
+/* ===== APERCU ===== */
+/* 
+** - Medium 400
+** - Medium Italic 400
+** - Semi-Bold 600
+** - Semi-Bold Italic 600
+** - Bold  700
+** - Bold Italic  700
+*/
+
+
+@font-face {
+  font-family: 'Inter'; 
+  src: url('../fonts/static/Inter_28pt-Medium.ttf') format('ttf'),
+       url('../fonts/static/Inter_28pt-Medium.ttf') format('ttf');   
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter'; 
+  src: url('../fonts/static/Inter_24pt-MediumItalic.ttf') format('ttf'),
+       url('../fonts/static/Inter_24pt-MediumItalic.ttf') format('ttf');   
+       font-weight: 400;
+       font-style: italic;
+}
+
+
+// @font-face {
+//   font-family: 'Inter'; 
+//   src: url('../fonts/Inter-SemiBold.ttf') format('ttf'),
+//        url('../fonts/Inter-SemiBold.ttf2') format('ttf');   
+//        font-weight: 600;
+//        font-style: normal;
+// }
+
+
+// @font-face {
+//   font-family: 'Inter'; 
+//   src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+//        url('../fonts/Inter-Bold.woff2') format('woff');   
+//        font-weight: 700;
+//        font-style: normal;
+// }
+
+

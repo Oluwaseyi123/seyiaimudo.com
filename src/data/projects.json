@@ -1,0 +1,24 @@
+[
+  {
+  "img": "Software Engineer",
+  "project_name": "Raptor Technologies",
+  "project_description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt.",
+  "url":"Present",
+  "stack": ["HTML", "CSS", "Javascript","HTML"]
+  },
+  {
+    "img": "Software Engineer",
+    "project_name": "Raptor Technologies",
+    "project_description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt.",
+    "url":"Present",
+    "stack": ["HTML", "CSS", "Javascript","HTML"]
+   
+  },
+  {
+    "img": "Software Engineer",
+    "project_name": "Raptor Technologies",
+    "project_description":  "Lorem ipsum dolor sit amet consectetur. Dolor rhoncus nisl a scelerisque sit sapien amet egestas lorem. Nisl eros faucibus at tincidunt.",
+    "url":"Present",
+    "stack": ["HTML", "CSS", "Javascript","HTML"]
+  }
+]
