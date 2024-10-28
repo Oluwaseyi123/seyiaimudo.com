@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <router-link to="/" class="accent-text">Visit Blog</router-link>
+  <a href="https://www.linkedin.com/in/oluwaseyi-aimudo/" class="accent-text" target="_blank" rel="noopener noreferrer">See Full Experience</a>
 </template>
 
 

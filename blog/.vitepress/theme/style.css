@@ -1,0 +1,165 @@
+@import url("../../../src/assets/scss/variables.scss");
+/**
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+
+ /**
+  * background color
+  * -------------------------------------------------------------------------- */
+
+  :root {
+    --vp-c-bg: var(--light-background-color);
+    /* --vp-c-bg-alt: var(--light-text-color); */
+  }
+  
+  .dark {
+    --vp-c-bg:  var(--dark-background-color);
+    --vp-c-bg-alt: var(--dark-alt-color) ;
+  }
+
+  /**
+ * Colors: Borders
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* --vp-c-border: #c2c2c4; */
+  --vp-c-divider: var(--light-alt-color);
+  /* --vp-c-gutter: #e2e2e3; */
+}
+
+.dark {
+  /* --vp-c-border: #3c3f44; */
+   --vp-c-divider: var(--light-alt-color); --vp-c-divider: #2e2e32;
+  /* --vp-c-gutter: #000000; */
+}
+
+
+
+/**
+ * Colors: Text
+ * -------------------------------------------------------------------------- */
+
+ :root {
+  /* --vp-c-text-1: rgba(60, 60, 67);
+  --vp-c-text-2: rgba(60, 60, 67, 0.78); */
+  --vp-c-text-3: var(--light-text-color);
+}
+
+.dark {
+  /* --vp-c-text-1: rgba(255, 255, 245, 0.86);
+  --vp-c-text-2: rgba(235, 235, 245, 0.6); */
+  --vp-c-text-3: var(--dark-text-color);
+}
+
+
+/**
+  * mode toggle buttom
+  * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-neutral: var(--light-light-accent-color);
+  --vp-c-neutral-inverse: var(--light-accent-color);
+}
+
+.dark {
+  --vp-c-neutral: var(--dark-text-color);
+  --vp-c-neutral-inverse: var(--dark-accent-color);
+}
+
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--light-accent-color);
+  --vp-button-brand-hover-bg: var(--light-accent-hover-color);
+  --vp-button-brand-active-bg: var(--light-accent-color);
+}
+
+.dark {
+  --vp-button-brand-bg: var(--dark-accent-color);
+  --vp-button-brand-bg: var(--dark-accent-color);
+  --vp-button-brand-hover-bg: var(--dark-accent-hover-color);
+  --vp-button-brand-active-bg: var(--dark-accent-color);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: var(--light-text-color)
+}
+
+.dark {
+  --vp-home-hero-name-color: var(--dark-text-color)
+}
+
+
+/**
+ * Component: Code
+ * -------------------------------------------------------------------------- */
+
+ :root {
+  --vp-code-font-size: 0.8em;
+  /* --vp-code-line-height: 1.7;
+  --vp-code-font-size: 0.875em;
+  --vp-code-color: var(--vp-c-brand-1);
+  --vp-code-link-color: var(--vp-c-brand-1);
+  --vp-code-link-hover-color: var(--vp-c-brand-2);
+  --vp-code-bg: var(--vp-c-default-soft);
+
+  --vp-code-block-color: var(--vp-c-text-2);
+  --vp-code-block-bg: var(--vp-c-bg-alt);
+  --vp-code-block-divider-color: var(--vp-c-gutter);
+
+  --vp-code-lang-color: var(--vp-c-text-3);
+
+  --vp-code-line-highlight-color: var(--vp-c-default-soft);
+  --vp-code-line-number-color: var(--vp-c-text-3);
+
+  --vp-code-line-diff-add-color: var(--vp-c-success-soft);
+  --vp-code-line-diff-add-symbol-color: var(--vp-c-success-1);
+
+  --vp-code-line-diff-remove-color: var(--vp-c-danger-soft);
+  --vp-code-line-diff-remove-symbol-color: var(--vp-c-danger-1);
+
+  --vp-code-line-warning-color: var(--vp-c-warning-soft);
+  --vp-code-line-error-color: var(--vp-c-danger-soft);
+
+  --vp-code-copy-code-border-color: var(--vp-c-divider);
+  --vp-code-copy-code-bg: var(--vp-c-bg-soft);
+  --vp-code-copy-code-hover-border-color: var(--vp-c-divider);
+  --vp-code-copy-code-hover-bg: var(--vp-c-bg);
+  --vp-code-copy-code-active-text: var(--vp-c-text-2);
+  --vp-code-copy-copied-text-content: 'Copied';
+
+  --vp-code-tab-divider: var(--vp-code-block-divider-color);
+  --vp-code-tab-text-color: var(--vp-c-text-2);
+  --vp-code-tab-bg: var(--vp-code-block-bg);
+  --vp-code-tab-hover-text-color: var(--vp-c-text-1);
+  --vp-code-tab-active-text-color: var(--vp-c-text-1);
+  --vp-code-tab-active-bar-color: var(--vp-c-brand-1); */
+}
+
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+/* :root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+} */
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--light-light-accent-color) !important;
+}

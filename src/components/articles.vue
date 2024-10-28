@@ -4,11 +4,9 @@
       v-for="(article, index) in articles"
       class="flex"
       :key="article"
-      ref="articleBox"
     >
       <div class="pb-6">
-        <a class="underline" :href="article.url" target="blank">{{ article.title }}</a>
-        <h3 class="underline"></h3>
+        <a class="underline" :href="article.url" target="blank">{{ article.title }}</a> <br>
         <i>{{ article.date }} 
           <span v-for="tag in article.tags" :key="tag">
           #{{ tag }} 
@@ -19,9 +17,9 @@
         </div>
       </div>
     </div>
+    <a href="http://localhost:5174" class="accent-text" target="_blank" rel="noopener noreferrer">Visit Blog</a>
   </div>
-
-    <router-link to="/" class="accent-text">Visit Blog</router-link>
+ 
 </template>
 
 <script setup lang="ts">

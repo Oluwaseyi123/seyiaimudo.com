@@ -6,11 +6,10 @@ const routes = [
     name: "Home",
     component: () => import("../pages/index.vue"),
   },
-  // {
-  //   path: "/portfolio",
-  //   name: "Portfolio",
-  //   component: () => import("@/pages/portfolio.vue"),
-  // },
+  {path: "/:pathMatch(.*)*", 
+  name: 'NotFound',
+  component: () => import("../pages/not-found.vue") }
+  
 ];
 
 const router = createRouter({
